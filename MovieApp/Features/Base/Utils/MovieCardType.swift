@@ -17,16 +17,16 @@ extension MovieCardType {
         case .poster:
             return 0.45
         case .grid:
-            return 0.20
+            return 0.30
         }
     }
     
     var heightPercentage: Double {
         switch self {
         case .poster:
-            return 0.5
+            return 0.60
         case .grid:
-            return 0.25
+            return 0.30
         }
     }
 }
